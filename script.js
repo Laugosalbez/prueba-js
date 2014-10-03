@@ -20,7 +20,7 @@ function multiply(){
 	var number2 = parseInt(document.getElementById("numberInput2").value());
 	if (number1 != NaN && number2 != NaN){
 	//Are numbers
-		document.getElementsById("result")[0].innerHTML = number1*number2;
+		document.getElementsByClassName("result")[0].innerHTML = number1*number2;
 	}
 }
 function division(){
@@ -28,6 +28,6 @@ function division(){
 	var number2 = parseInt(document.getElementById("numberInput2").value());
 	if (number1 != NaN && number2 != NaN){
 	//Are numbers
-		document.getElementsById("result")[0].innerHTML = number1/number2;
+		document.getElementsByClassName("result")[0].innerHTML = number1/number2;
 	}
 }
