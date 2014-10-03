@@ -4,7 +4,7 @@ function add(){
 	var number2 = document.getElementById("numberInput2").value;
 	if (number1 != NaN && number2 != NaN){
 	//Are numbers
-		document.getElementsByClassName("result")[0].innerHTML = number1+number2;
+		document.getElementsByClassName("result")[0].innerHTML = parseInt(number1)+parseInt(number2);
 	}
 }
 function substract(){
@@ -16,16 +16,16 @@ function substract(){
 	}
 }
 function multiply(){
-	var number1 = parseInt(document.getElementById("numberInput1").value;
-	var number2 = parseInt(document.getElementById("numberInput2").value;
+	var number1 = parseInt(document.getElementById("numberInput1").value);
+	var number2 = parseInt(document.getElementById("numberInput2").value);
 	if (number1 != NaN && number2 != NaN){
 	//Are numbers
 		document.getElementsByClassName("result")[0].innerHTML = number1*number2;
 	}
 }
 function division(){
-	var number1 = parseInt(document.getElementById("numberInput1").value;
-	var number2 = parseInt(document.getElementById("numberInput2").value;
+	var number1 = parseInt(document.getElementById("numberInput1").value);
+	var number2 = parseInt(document.getElementById("numberInput2").value);
 	if (number1 != NaN && number2 != NaN){
 	//Are numbers
 		document.getElementsByClassName("result")[0].innerHTML = number1/number2;
